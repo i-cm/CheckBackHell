@@ -94,9 +94,11 @@ reset()
 //If the user confirms the hard reset, resets all variables, saves and refreshes the page
 function hardReset() {
   if (confirm("Are you sure you want to reset? You will lose everything!")) {
+	  if (prompt("Type CONFIRM to reset")) {
     reset()
     save()
     location.reload()
+	  }
   }
 }
 
@@ -157,7 +159,7 @@ function importGame() {
 }
 
 function help() {
-alert("Is the game too hard? This is a reminder that you're on the HELL version of Check Back. If you want a balanced experience then play the normal version")
+
 }
 
 function loadGame(loadgame) {
