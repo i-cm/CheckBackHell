@@ -1,17 +1,17 @@
 const XPButtons = [ //The stats of every single xp button
   {name: "Test", xp: 0, cooldown: 0, cooldownID: 0, unlock: 0},
-  {name: "XPbutton1", xp: 0.5, cooldown: 120, cooldownID: 0, unlock: 0}, //2 mins
-  {name: "XPbutton2", xp: 1, cooldown: 300, cooldownID: 1, unlock: 1}, //5 mins
-  {name: "XPbutton3", xp: 2, cooldown: 1200, cooldownID: 2, unlock: 2}, //20 mins
-  {name: "XPbutton4", xp: 3, cooldown: 3600, cooldownID: 3, unlock: 3}, //1h
-  {name: "XPbutton5", xp: 5, cooldown: 21600, cooldownID: 4, unlock: 4}, //6h
-  {name: "XPbutton6", xp: 10, cooldown: 86400, cooldownID: 5, unlock: 5}, //1d
-  {name: "XPbutton7", xp: 25, cooldown: 259200, cooldownID: 11, unlock: 8}, //3d
-  {name: "XPbutton8", xp: 50, cooldown: 604800, cooldownID: 14, unlock: 10}, //7d
-  {name: "XPbutton9", xp: 100, cooldown: 864000, cooldownID: 16, unlock: 12}, //10d
-  {name: "XPbutton10", xp: 150, cooldown: 1296000, cooldownID: 17, unlock: 15}, //15d
-  {name: "XPbutton11", xp: 200, cooldown: 1728000, cooldownID: 39, unlock: 17}, //20d
-  {name: "XPbutton12", xp: 250, cooldown: 2592000, cooldownID: 40, unlock: 18}, //1 month
+  {name: "XPbutton1", xp: 0.1, cooldown: 120, cooldownID: 0, unlock: 0}, //2 mins
+  {name: "XPbutton2", xp: 0.2, cooldown: 300, cooldownID: 1, unlock: 1}, //5 mins
+  {name: "XPbutton3", xp: 0.5, cooldown: 1200, cooldownID: 2, unlock: 2}, //20 mins
+  {name: "XPbutton4", xp: 1, cooldown: 3600, cooldownID: 3, unlock: 3}, //1h
+  {name: "XPbutton5", xp: 2, cooldown: 21600, cooldownID: 4, unlock: 4}, //6h
+  {name: "XPbutton6", xp: 3, cooldown: 86400, cooldownID: 5, unlock: 5}, //1d
+  {name: "XPbutton7", xp: 5, cooldown: 259200, cooldownID: 11, unlock: 8}, //3d
+  {name: "XPbutton8", xp: 10, cooldown: 604800, cooldownID: 14, unlock: 10}, //7d
+  {name: "XPbutton9", xp: 25, cooldown: 864000, cooldownID: 16, unlock: 12}, //10d
+  {name: "XPbutton10", xp: 50, cooldown: 1296000, cooldownID: 17, unlock: 15}, //15d
+  {name: "XPbutton11", xp: 75, cooldown: 1728000, cooldownID: 39, unlock: 17}, //20d
+  {name: "XPbutton12", xp: 100, cooldown: 2592000, cooldownID: 40, unlock: 18}, //1 month
 ]
 
 //The code for any of the xp buttons
